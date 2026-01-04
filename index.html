@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tejaa | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<header class="header">
+  <h2 class="logo">Tejashwini</h2>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>Hello, I'm <span>Tejashwini badagi</span></h1>
+    <p>A Final Year Computer Science Student</p>
+  </div>
+
+  <div class="hero-img">
+   <img src="images/teja.jpg" width="200" alt="Profile Photo">
+
+
+
+  </div>
+</section>
+
+
+<section id="about" class="about">
+  <h2>About Me</h2>
+  <div class="about-box">
+    <p> 
+      I am a computer science student interested in web development, UI design, and artificial intelligence. I enjoy learning new technologies and improving my UI design skills.
+    </p>
+     
+    <p>I enjoy working on frontend development projects.</p>
+
+      
+    <p>In my free time, I love watching movies and series.</p>
+
+      
+    <p>I am always eager to learn and connect with new people who share similar interests in new technologies.</p>
+      
+    </p>
+
+    <ul>
+<li>💻 Languages: Python, HTML, CSS(basic), javascript(basic)</li>
+<li>🎯 Goal: MS in Germany</li>
+<li>🎨 Interest: UI Design & AI</li>
+    </ul>
+  </div>
+</section>
+
+
+<section id="gallery" class="gallery">
+  <h2>My Gallery</h2>
+
+  <div class="gallery-grid">
+    <img src="images/img1.jpeg" onclick="openLightbox(this)">
+   <img src="images/img2.jpeg" onclick="openLightbox(this)">
+
+   
+  </div>
+</section>
+
+<div id="lightbox">
+  <span onclick="closeLightbox()">×</span>
+  <img id="lightbox-img">
+</div>
+
+<section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <p>Email: tejashwinibadagi863@gmail.com</p>
+  <p>LinkedIn: https://www.linkedin.com/in/tejashwini-badagi-480a732b5</p>
+  <p>GitHub: https://github.com/Tejashwinibadagi</p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
